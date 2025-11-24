@@ -43,7 +43,7 @@ pipeline {
     
     post {
         success {
-            echo 'Pipeline finished successfully! Visit:http://127.0.0.1:3000/index.html'
+            echo 'Pipeline finished successfully! Visit:file:///C:/2203116/index.html'
         }
         failure {
             echo 'Pipeline failed! Check build logs.'
